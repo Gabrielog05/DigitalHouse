@@ -1,7 +1,5 @@
 use musimundos;
 
-# MEMBROS - Naickely, Gustavo Melchior, Andre Goldoni
-
 # 1
 SELECT 
 MAX(valor_total)
