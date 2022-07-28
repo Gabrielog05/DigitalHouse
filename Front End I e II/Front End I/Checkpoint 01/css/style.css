@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Work+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+body {
+  background-color: #e3e7ff;
+}
+header {
+  font-family: kannada;
+  font-style: normal;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Hubballi;
+  gap: 1.5rem;
+}
+.opcao {
+  background-color: #ffffff;
+  width: 6rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1 {
+  position: absolute;
+  font-size: 6.5rem;
+  font-family: hubballi, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.banner__principal {
+  padding: 0.5rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  box-shadow: white;  
+}
+
+.niemayer {
+  background-color: #929ace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-family: Hubballi, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.descricao{
+  margin: 2rem;
+  padding: 2rem;
+  color: white;
+  background-color:#929ace;
+  border-radius: 0.5rem;
+}
+img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+ 
+.sobre h2{
+    color: white;
+    font-size: 3em;
+}
+.cards__bh a{
+  background-color: #616ec5;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: white;
+  font-family: Hubballi, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+.cards__bh h3{
+    font-size: 1.5rem;
+}
+.cards__bh {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: auto;
+  gap: 3rem;
+}
+.sobre__Cards img {
+  width: 80%;
+}
+.sobre__card1, .sobre__card2, .sobre__card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 1.5rem;
+    background-color:  #929ace;
+    color: black;
+    height: 33rem;
+    border-radius: 0.5rem;
+}
+.sobre__card1{
+    gap: 1rem;
+}
+p {
+    padding: 0.5rem;
+    text-align: center;
+    font-family: kannada, sans-serif;
+    font-weight: bold;
+  
+}
+
+.video__bh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+iframe{
+    width: 50rem;
+    height: 30rem;
+}
+footer{
+  background-color: #929ace;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  height: 10rem;
+}
+
+.midias{
+display: flex;
+gap: 2rem;
+padding: 1rem;
+
+}
+.__midias a{
+  text-decoration: none;
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.__midias img{
+  width: 3rem;
+  height: 3rem;
+}
+.__midias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

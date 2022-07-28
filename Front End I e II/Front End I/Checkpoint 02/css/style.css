@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Karla:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Cinzel+Decorative&family=Cormorant+SC:wght@300&family=Karla:wght@200&display=swap');
+
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #FFFFFF;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+ul a{
+    font-family: karla;
+    color: black; 
+}
+
+
+a#home {
+    color: red; 
+    
+}
+
+#logo{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+
+}
+
+.menu__header{
+    display: flex;
+    font-size: 30px;    
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.card__banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000be;
+    width: 100%;
+    height: 600px;
+    
+}
+
+
+.banner {    
+    background-image: url(../img/filmes.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: karla;
+}
+
+#banner__sobre {   
+    background-image: url(../img/joker.png);
+    background-position: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: karla;
+
+}
+
+h1{
+    color: red;
+    font-size: 72px;
+    
+}
+
+.texto__banner{
+    color: white;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.btn__banner{
+    width: 150px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.315);
+    border-color: #33BB69;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn__banner a{
+    color: rgb(255, 255, 255);
+}
+
+.btn__banner:hover{
+    background-color: #33bb69ab;
+}
+
+h2{
+    text-align: center;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.container__cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    width: 30%;
+    height: 600px;
+    margin: 10px;
+    border-radius: 3%;
+    background-color: #E5E5E5;
+}
+
+.card p {
+    font-family: oswald;
+    color: black; 
+
+}
+
+/* Cards dos Filmes */
+
+.card__background__joker {
+    background-image: url('/img/joker.png');
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__ironman {
+    background-image: url('/img/ironman.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__marvel {
+    background-image: url('/img/marvel.png');
+    background-size: cover;    
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__dora {
+    background-image: url('/img/dora.png');
+    background-size: cover;    
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__1917 {
+    background-image: url('/img/1917.png');
+    background-size: cover;    
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__background__thor {
+    background-image: url('/img/Thor.png');
+    background-size: cover;    
+    background-repeat: no-repeat;  
+    border-radius: 3%;
+    padding: 10px;  
+    width: 100%;
+    height: 20em;
+}
+
+.card__texto {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+h3, h2 {
+    margin:10px;
+    background-color: #ffffff;
+    font-family: karla;
+    color: #33BB69;
+    text-align: center;
+}
+
+p{
+    font-family: karla;    
+    color: rgba(0, 0, 0, 0.753);
+    font-size: 18px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.btn__itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 42px;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 25%;
+    border-radius: 30em;
+    background-color: #33bb6975;
+    
+}
+
+.btn__itens:hover {
+    background-color: #33bb69;
+}
+
+.btn__card:hover{
+    background-color: black;
+}
+
+/* Tela FILME */
+
+.card__texto__sobre {
+    display: flex;    
+    align-items: left;   
+    padding: 5px;   
+    justify-content: space-between;
+}
+
+.info p {
+    color: #000000;
+    font-family: oswald;
+}
+
+.info h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    font-size: 2em;
+    color: #000000;
+    font-weight: bold;
+}
+
+.descricao {
+    display: flex;    
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.escritor {
+    padding-left: 100px;
+   
+}
+
+.descricao p {
+    color: #0085FF;
+}
+
+#titulo__sobre {
+    display: flex;
+    color: #000000;    
+    font-family: oswald;
+}
+
+#img__estrela {
+    padding-left: 0.7em;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.video h2 {
+    font-size: 36px;
+    color: #000000;
+}
+
+.trailer h2{
+    display: flex;    
+    padding-left: 7.5em;
+    font-size: 36px;
+    color: #000000;    
+
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    width: 100%;   
+    height: 200px;
+    background-color: #000000;
+    margin-top: 50px;
+    
+}
+
+
+footer h4{
+    color: rgb(216, 216, 216);
+}
+
+.box__footer__grupo__checkpoint{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+
+}
+
+.footer__grupo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: beige;
+  
+}
+
+.footer__grupo img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1em;
+    height: 1em;
+}
+h4{
+   margin-bottom: 15px;
+}
+
+.__midias {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;     
+
+}
+
+.__midias a{
+    padding: 15px;
+    justify-content: center;
+
+}
+
+.__midias p{
+    color: white;
+}
+
+.__aluno {
+    margin: 20px;
+    justify-content: center;
+}
+
+#icon__git{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer; 
+}
+
+#icon__linkedin{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+/* adaptatividade e responsividade */
+
+@media (max-width: 516px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 10px;
+        
+    }
+
+    .banner {
+        width: 100%;
+    
+    }
+
+    .conteudo {
+        display: flex;    
+        flex-direction: column;                       
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;       
+        margin-right: 10px;
+    }
+
+    .card__banner {        
+       
+        width: 100%;
+        
+    }
+
+    .container__cards {       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        object-fit: cover;                        
+        width: 80%;        
+    }
+
+    .card {
+        width: 80%;
+        margin: 0px auto;
+        float: none;
+        margin-bottom: 20px;
+        margin-right: -20px;
+    }
+    
+    .box__footer__grupo__checkpoint {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}

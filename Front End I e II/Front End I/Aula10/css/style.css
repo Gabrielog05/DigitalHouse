@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.barra__desconto {
+  height: 38px;
+  width: 100%;
+  background-color: #1cd1b0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.titulo {
+  width: 100%;
+  height: 101px;
+  background-color: #00669f;
+  padding: 5px;
+  font-size: 50px;
+  box-shadow: 0px 12px 11px -8px rgba(0, 0, 0, 0.58);
+}
+
+.container__cards {
+  width: 834px;
+  height: 597px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  
+}
+
+.card {
+  width: 374px;
+  height: 597.01px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: #F3F3F3;
+  box-shadow: 0px 16px 15px -9px rgba(0,0,0,0.40); 
+  position: relative;
+ 
+}
+
+.class__icone img{
+  position: absolute;
+  left:20px;
+  top:10px;
+
+}
+
+.card__background__batman {
+    background-image: url("/img/batcaverna.png");
+    background-size: cover;
+    width: 374px;
+    height: 217px;  
+}
+
+.class__personagem img {
+    border-radius: 180px;
+    height: 135.43px;
+    width: 135.43px;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    position: absolute;
+    left: 130px;
+    top: 150px;
+}
+
+.card__titulo {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.card__texto {
+    text-align: center;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.card__botao {
+    text-decoration: none;
+    text-align: center;
+    padding: 18px;
+    width: 145.34px;
+    height: 54.76px;
+    background-color: #00669f;
+    color: white;
+    font-size: 20px;
+    border: none;
+    display: block;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+/* A PARTIR DAQUI É A ARLEQUINA*/
+
+.card__background__arlequina { 
+    background-image: url("/img/cores.png");
+    background-size: cover;
+    width: 374px;
+    height: 217px;  
+}
+
+footer {
+    background-color: #00669F;
+    height: 51px;
+    color: #FFF9F9;
+    padding: 10px;
+}
