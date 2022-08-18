@@ -1,2 +1,4 @@
-# DigitalHouse
-Repositório composto pelas atividades realizadas durante os bimestres do curso de "Certified Tech Developer" da escola Digital House.
+# Este repositório armazena as atividades e as anotações realizadas em JavaScript, conforme a progressão do meu conhecimento.
+
+
+
