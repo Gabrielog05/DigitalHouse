@@ -1,4 +1,4 @@
-Este repositório armazena as atividades e as anotações realizadas em JavaScript, conforme a progressão do meu conhecimento.
-
-
-
+As atividades estão separadas em três modelos de Conhecimento:
+Banco de Dados MySQL
+Front-end (HTML e CSS)
+JavaScript conceitos
